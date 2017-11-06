@@ -20,9 +20,9 @@ public class new_message extends AppCompatActivity {
 
         // Enables back button on action bar.
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        send = (Button)findViewById(R.id.send);
-        phone = (EditText)findViewById(R.id.phone);
-        message = (EditText)findViewById(R.id.message);
+        send = (Button)findViewById(R.id.sendBtn);
+        phone = (EditText)findViewById(R.id.phoneNumberBox);
+        message = (EditText)findViewById(R.id.messageTextBox);
         send.setOnClickListener(new View.OnClickListener() {
             @Override            public void onClick(View v) {
                 sendmessage();
